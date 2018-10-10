@@ -1,0 +1,17 @@
+{
+  "name": "better-slack-clickbaiter",
+  "version": "1.0.0",
+  "scripts": {
+    "clickbait": "node -r esm ./index.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "esm": "^3.0.84",
+    "google-searcher": "^1.0.0",
+    "inquirer": "^6.2.0",
+    "metagetter": "^1.0.2",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
